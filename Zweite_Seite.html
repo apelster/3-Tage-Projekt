@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Freundebuch - Seite 2</title>
+    
+    <link rel="stylesheet" href="Zweite_Seite.css">
+
+</head>
+<body>
+
+    <div id="margin">
+    <div id="zeit">
+        <label for="date"></label>
+        <input id="date" type="date">
+    </div>
+
+    <div class="section5">
+        <h1>Drei Dinge, die mich glücklich machen:</h1>
+        <label>1. <input style="text-align: center;" type="text" name="happy1" placeholder="Trage hier was ein"></label><br>
+        <label>2. <input style="text-align: center;" type="text" name="happy2" placeholder="Trage hier was ein"></label><br>
+        <label>3. <input style="text-align: center;" type="text" name="happy3" placeholder="Trage hier was ein"></label><br>
+    </div>
+
+    
+    <div class="section4">
+        <h1 style="display: inline;">Das wollte ich als Kind werden:</h1><br>
+        <textarea name="childDream" id="childDream" rows="2" cols="50">&darr;</textarea><br>
+
+        <h1 style="display: inline;">und das mache ich heute</h1><br>
+        <textarea name="matureDream" id="matureDream" rows="2" cols="50">&uarr;</textarea>
+    </div>
+
+
+    <div class="container">
+        <form id="page2Form">
+
+            <div class="section6">
+                <h2>Ich bin ein:</h2>
+                <label><input type="checkbox" name="traits" value="überflieger"> ÜBERFLIEGER</label><br>
+                <label><input type="checkbox" name="traits" value="organisationstalent"> ORGANISATIONSTALENT</label><br>
+                <label><input type="checkbox" name="traits" value="gerechtigkeitsfanat"> GERECHTIGKEITSFANAT</label><br>
+                <label><input type="checkbox" name="traits" value="wildfang"> WILDFANG</label><br>
+                <label><input type="checkbox" name="traits" value="improvisationstalent"> IMPROVISATIONSTALENT</label><br>
+                <label><input type="checkbox" name="traits" value="grummelbär"> GRUMMELBÄR</label><br>
+                <label><input type="checkbox" name="traits" value="glückskind"> GLÜCKSKIND</label><br>
+                <label><input type="checkbox" name="traits" value="schlechter verlierer"> SCHLECHTER VERLIERER</label><br>
+                <label><input type="checkbox" name="traits" value="weltenbummler"> WELTENBUMMLER</label><br>
+                <label><input type="checkbox" name="traits" value="kummerkasten"> KUMMERKASTEN</label><br>
+                <label><input type="checkbox" name="traits" value="treuer freund"> TREUER FREUND</label><br>
+                <label><input type="checkbox" name="traits" value="komplimente-verteiler"> KOMPLIMENTE-VERTEILER</label><br>
+                <label><input type="checkbox" name="traits" value="komiker"> KOMIKER</label><br>
+                <label><input type="checkbox" name="traits" value="problemlöser"> PROBLEMLÖSER</label><br>
+            </div>
+
+
+            <div class="section7">
+                <h2 style="text-align: right;">Ich bin eher ein:</h2>
+                <p>BITTE ANKREUZEN</p>
+
+                <label><input class="checkbox-right" type="checkbox" name="moreLike" value="film"> FILM</label><br>
+                <label><input class="checkbox-right" type="checkbox" name="moreLike" value="serie"> SERIE</label><br>
+                <label><input class="checkbox-right" type="checkbox" name="moreLike" value="kochen"> KOCHEN</label><br>
+                <label><input class="checkbox-right" type="checkbox" name="moreLike" value="auftauen"> AUFTAUEN</label><br>
+                <label><input class="checkbox-right" type="checkbox" name="moreLike" value="ordentlich"> ORDENTLICH</label><br>
+                <label><input class="checkbox-right" type="checkbox" name="moreLike" value="chaotisch"> CHAOTISCH</label><br>
+                <label><input class="checkbox-right" type="checkbox" name="moreLike" value="jäger"> JÄGER</label><br>
+                <label><input class="checkbox-right" type="checkbox" name="moreLike" value="sammler"> SAMMLER</label><br>
+            </div>
+                
+            <div class="section8">
+                <label><input class="checkbox-left" type="checkbox" name="moreLike" value="katze"> KATZE</label><br>
+                <label><input class="checkbox-left" type="checkbox" name="moreLike" value="hund"> HUND</label><br>
+                <label><input class="checkbox-left" type="checkbox" name="moreLike" value="herz"> HERZ</label><br>
+                <label><input class="checkbox-left" type="checkbox" name="moreLike" value="kopf"> KOPF</label><br>
+                <label><input class="checkbox-left" type="checkbox" name="moreLike" value="optimist"> OPTIMIST</label><br>
+                <label><input class="checkbox-left" type="checkbox" name="moreLike" value="pessimist"> PESSIMIST</label><br>
+                <label><input class="checkbox-left" type="checkbox" name="moreLike" value="geduldig"> GEDULDIG</label><br>
+                <label><input class="checkbox-left" type="checkbox" name="moreLike" value="ungeduldig"> UNGEDULDIG</label><br>
+            </div>
+
+            <button id="button" type="submit">Abschicken</button><br>
+            <button id="previousPage" type="button" onclick="previousPage()">Zurück</button>
+            
+        </form>
+    </div>
+    <script src="projekt.js"></script>
+</div>
+
+
+</body>
+</html>
