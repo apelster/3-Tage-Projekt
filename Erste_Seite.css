@@ -1,26 +1,57 @@
 body{
-    margin-top: 0;
-    padding: 0;
-    width: 100%;
-    height: 100%;
-    font-family: 'Arial', sans-serif;
+    font-family:cursive, 'Arial', sans-serif;
     background-image: url(./img/Erstes-Foto.jpg);
-    background-repeat: no-repeat;
-    background-size:100%;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: center;
+    width: 81%;
+}
+
+
+#Überschrift{
+    position: relative;
+    right: 80px;
+    color: aqua;
 }
 
 .container {
     display: flex;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 100%;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    text-align: center;
-    color: #000;
-    padding: 20px;
+    color: #ffffff;
+}
+
+
+
+@media (max-width: 768px){
+    #textarea2 {
+        width: 240px;
+    }
+}
+
+
+#textarea2 {
+    border: 4px solid #4267b2;
+    border-radius: 5px;
+}
+
+
+
+#zeit {
+    position: relative;
+    left: 500px;
+}
+
+#zeit:hover{
+    border-color: #888;
+}
+
+
+
+.section{
+    position: absolute;
+    left: 650px;
+    top: 320px;
 }
 
 .section1 {
@@ -29,37 +60,122 @@ body{
     text-align: right;
 }
 
-button {
-    background-color: #4267b2;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 1em;
-    margin-top: 20px;
-}
-
-button:hover {
-    background-color: #365899;
+.inputVerschieben{
+    position: relative;
+    left: 140px;
 }
 
 
-@media (max-width: 768px){
-    #textarea2 {
-        width: 240px; ;
-    }
-}
-
-
-#textarea2 {
-    border: 4px solid yellow;
-    border-radius: 5px;
+.mittig{
+    text-align: center;
 }
 
 
 .section2 {
-    margin-bottom: 20px;
-    margin-top: 10px;
+    position: absolute;
+    right: 800px;
+    top: 320px;
+    text-align: right;
+}
+
+
+
+.section4{
+    position: relative;
+    top: 71px;
+    left: 450px;
+    display: inline;
+}
+
+#childDream{
+    border: 4px solid #4267b2;
+    border-radius: 8px;
+}
+
+
+#matureDream{
+    border: 4px solid #4267b2;
+    border-radius: 8px;
+}
+
+
+#obererPfeil{
+    display: inline-block;
+    position: absolute;
+    left: -10px;
+    top: 102px;
+    color: rgb(60, 255, 0);
+}
+
+#unterePfeil{
+    display: inline-block;
+    position: absolute;
+    right: 81px;
+    bottom: 1px;
+    color: rgb(0, 255, 0);
+}
+
+
+.section5{
+    position: relative;
+    top: 236px;
+    left: -200px;
+}
+
+.input{
+    text-align: center;
+    font-size: large;
+}
+
+#verschieben{
+    position: relative;
+    left: 2.8px
+}
+
+.section6{
+    position: absolute;
     text-align: left;
+    right: 800px;
+    top: 850px;
+
+}
+/* Ich bin ein */
+
+
+.section7{
+    position: absolute;
+    left: 650px;
+    top: 850px;
+    text-align: left;
+}
+
+/* Ich bin eher ein */
+
+
+.section8{
+
+    position: absolute;
+    left: 870px;
+    top: 956px;
+    text-align: left;
+}
+
+
+#button {
+    position: relative;
+    top: 550px;
+    left: 100px;
+    width: 400px;
+    background-color: #4267b2;
+    height: 50px;
+    color: white;
+    padding: 10px 20px;
+    border: 4px solid rgb(0, 255, 0);
+    border-radius: 4px;
+}
+
+#button:hover{
+    border: 4px solid yellow;
+    border-radius: 4px;
+    cursor: pointer;
 }
